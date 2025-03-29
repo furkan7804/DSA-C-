@@ -34,7 +34,7 @@ public:
     {
         if (top == -1)
         {
-            return-1 ;
+            return -1;
         }
         return arr[top];
     }
@@ -50,14 +50,11 @@ int main()
     st.push(4);
     st.push(6);
     st.push(8);
-    // for(int i = 4;i>0;i--){
-    //     cout<<st.Top()<<endl;
-    //     st.pop();
-    // }
+    cout << st.Top() << endl;
     st.pop();
     st.pop();
     st.pop();
     st.pop();
-    
-    cout<<st.empty();
+
+    cout << st.empty();
 }
